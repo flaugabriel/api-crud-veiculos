@@ -104,7 +104,7 @@ Este projeto tem como finaliade a criação de uma api JSON RESTful para cadastr
 
 * parametro id=6 para remoção de veiculo.
 * resposta:
-`
+```code
 {
   "mensagem": "Veiculo Deletado!"
 }
