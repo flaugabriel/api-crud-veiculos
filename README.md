@@ -21,7 +21,7 @@ Este projeto tem como finaliade a criação de uma api JSON RESTful para cadastr
 
 ## LISTA COMPLETA DE VEICULOS
 
-```shell
+```code
 [
     {
         "id": 10,
@@ -44,7 +44,7 @@ Este projeto tem como finaliade a criação de uma api JSON RESTful para cadastr
         "updated_at": "2020-08-03T03:15:15.133Z"
     }
 ]
-`
+```
 * exemplo de vazio
 
 `
@@ -55,7 +55,7 @@ Este projeto tem como finaliade a criação de uma api JSON RESTful para cadastr
 ## CADASTRA NOVO VEICULO
 * parametros emviados no formato json
 
-`
+```code
   {
     "veiculo":
     {
@@ -67,11 +67,11 @@ Este projeto tem como finaliade a criação de uma api JSON RESTful para cadastr
       "vendido":"0"
     }
   }
-`
+```
 ## CONSULTA VEICULO
 * parametro id=6
 
-`
+```code
   {
     "id": 6,
     "marca": "Chevrolet",
@@ -88,7 +88,7 @@ Este projeto tem como finaliade a criação de uma api JSON RESTful para cadastr
 * parametro id=6
 * envio de parametros via body no formato json abaixo:
 
-`
+```code
   {
   "veiculo":
     {
@@ -99,7 +99,7 @@ Este projeto tem como finaliade a criação de uma api JSON RESTful para cadastr
       "vendido":"1"
     }
   }
-`
+```
 ## APAGA UM VEICULO
 
 * parametro id=6 para remoção de veiculo.
@@ -108,4 +108,4 @@ Este projeto tem como finaliade a criação de uma api JSON RESTful para cadastr
 {
   "mensagem": "Veiculo Deletado!"
 }
-`
+```
